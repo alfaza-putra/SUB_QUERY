@@ -10,6 +10,7 @@ FROM k
 WHERE nama ='Dika'
 );
 Output :
+
 ![gambar](https://github.com/alfaza-putra/SUB_QUERY/blob/main/ss_hasil/ss1.png)
 
 2. Tampilkan data karyawan yang gajinya lebih besar dari rata-rata gaji semua karyawan. Urutkan menurun berdasarkan besaran gaji
@@ -23,6 +24,7 @@ FROM k
 ORDER BY gaji_pokok
 );
 Output :
+
 ![gambar](https://github.com/alfaza-putra/SUB_QUERY/blob/main/ss_hasil/ss2.png)
 
 3. Tampilkan nik dan nama karyawan untuk semua karyawan yang bekerja di department yang sama dengan karyawan dengan nama yang mengandung huruf 'K'
@@ -34,6 +36,7 @@ FROM k
 WHERE nama LIKE'__k%'
 );
 Output :
+
 ![gambar](https://github.com/alfaza-putra/SUB_QUERY/blob/main/ss_hasil/ss3.png)
 
 4. Tampilkan data karyawan yang bekerja pada departemen yang ada di kantor pusat
@@ -46,6 +49,7 @@ WHERE id_p =
 (SELECT id_p FROM p WHERE nama='Kantor Pusat')
 );
 Output :
+
 ![gambar](https://github.com/alfaza-putra/SUB_QUERY/blob/main/ss_hasil/ss4.png)
 
 5. Tampilkan nik dan nama karyawan untuk semua karyawan yang bekerja di department yang sama dengan karyawan dengan nama yang mengandung huruf 'K' dan yang gajinya lebih besar dari rata-rata gaji semua karyawan
@@ -60,4 +64,5 @@ FROM k
 WHERE nama LIKE'__k%'
 );
 Output :
+
 ![gambar](https://github.com/alfaza-putra/SUB_QUERY/blob/main/ss_hasil/ss5.png)
